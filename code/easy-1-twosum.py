@@ -67,7 +67,7 @@ class Solution:
         raise ValueError('No valid answer exists')
 
 if __name__ == '__main__':
-    sum = Solution()
+    solution = Solution()
     nums = [
         [2,7,11,15],
         [3,2,4],
@@ -87,7 +87,7 @@ if __name__ == '__main__':
         [0,2]
     ]
     problem = 3
-    result = sum.twoSum(nums[problem], target[problem])
+    result = solution.twoSum(nums[problem], target[problem])
     print(nums[problem])
     print(target[problem])
     print('Solution:')
