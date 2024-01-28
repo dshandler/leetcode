@@ -1,7 +1,7 @@
 """
 Author: Darren Shandler
 Date Created: 23 January 2024
-Last Edit: 23 January 2024
+Last Edit: 28 January 2024
 
 This python file solves a leetcode question 20. Valid Parantheses.
 [Instruction]
