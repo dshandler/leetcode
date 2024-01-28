@@ -84,6 +84,7 @@ class Solution:
             'M': 1000,
             '0': 0
         }
+        
     def romanToInt(self, s: str) -> int:
         '''
         Returns the integer value of the roman numerals input string
