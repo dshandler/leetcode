@@ -26,15 +26,13 @@ class ListNode:
 
     Attributes:
     ------------
-    val : int
-        The current value of the list node
-    next : ListNode
-        The next List Node after the current value.
+    val
+    next
 
     Methods:
     ------------
-    romanToInt(s):
-        Returns the integer value of the roman numerals input string.
+    __init__(val=0, next=None):
+        initialise the ListNode class
     '''
     def __init__(self, val=0, next=None):
         self.val = val
@@ -52,6 +50,8 @@ class createListNode:
 
     Methods:
     ------------
+    __init__():
+        Initialise the createListNode class
     addToListNode(val):
         Adds a new value to the end of the ListNode
     getList():
